@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="body_bg d-flex flex-column align-items-center">
+    <div class="body_bg">
       <!--::header part start::-->
       <header class="main_menu single_page_menu">
         <div class="container">
@@ -43,10 +43,23 @@
       </header>
       <!-- Header part end-->
 
-      <form action="" class="col-md-6 flex flex-column mt-5">
-        <div class="section_tittle text-center">
-          <h1>Register</h1>
+      <!-- breadcrumb start-->
+      <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb_iner text-center">
+                <div class="breadcrumb_iner_item">
+                  <h2>Register</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- breadcrumb start-->
+
+      <form action="confirmation.html" class="col-md-6 flex flex-column mt-5 mx-auto">
         <div class="mt-10">
           <input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''"
             onblur="this.placeholder = 'First Name'" required class="single-input-primary">
